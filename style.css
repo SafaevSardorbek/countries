@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    background-color: #111d4a;
+    /* background-color: black; */
+}
+.active{
+    background-color: white;
+}
+.active h1{
+    color: #111d4a;
+}
+.active .card{
+    background-color: #000;
+    color: white;
+}
+.active input{
+    border: 1px solid black;
+}
+
+@media screen and (max-width:400px){
+    .card img{
+        width: 300px;
+    }
+    .card{
+        margin-right: 150px;
+    }
+}
+@media screen and (max-width:360px){
+    .card img{
+        width: 270px;
+    }
+}
+@media screen and (max-width:330px){
+    .card img{
+        width: 230px;
+    }
+}
+
+
+@media screen and (max-width:280px){
+    .card img{
+        width: 190px;
+    }
+}
